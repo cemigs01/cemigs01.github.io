@@ -13,6 +13,7 @@ sitemap:
 
 It is blog skin test for the class "OpenSource SW". My name is Simon, 2017012879, ICT융합학부.
 yubinpark, 2017012888, ICT융합학부.2017012897 parkjumi
+Seungjae, 2017012851 ICT융합학부
 ### Content is Imortant
 <div class="box">
   <p>
