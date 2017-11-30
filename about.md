@@ -12,11 +12,11 @@ sitemap:
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 
 It is blog skin test for the class "OpenSource SW". My name is Simon, 2017012879, ICT융합학부.
-yubinpark, 2017012888, ICT융합학부.2017012897 parkjumi. Seungjae, 2017012851 ICT융합학부
+yubinpark, 2017012888, ICT융합학부.2017012897 parkjumi.
 ### Content is Imortant
 <div class="box">
   <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+  Seungjae, 2017012851 ICT융합학부
   </p>
 </div>
 
