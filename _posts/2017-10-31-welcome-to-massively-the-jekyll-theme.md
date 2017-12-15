@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OSS2017_SimonPark"
-date:   2017-10-31
+date:   2017-12-16
 excerpt: "Huge thanks to Team4 and Professor Cho."
 image: "/images/pic02.jpg"
 ---
