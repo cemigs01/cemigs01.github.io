@@ -247,10 +247,8 @@ play_music()
 
 ###3. 발표
 
-<div class="box">
-  <p>
+
 발표 파트는 자세히 말로 설명하기는 부족하니 영상으로 대체하도록 하겠다.
+
 [영상 링크](http://101.79.235.31/redirect/video.nmv.naver.com/blog/blog_2017_12_15_111/b5efac7db04c73ce0791404de71307ba874d_ugcvideo_480P_01.mp4?key=MjEwMzIyMjA1MzQ2OTcwNDQzMTE0MzExMTAxOXZpZGVvLm5tdi5uYXZlci5jb20wODMvYmxvZy9ibG9nXzIwMTdfMTJfMTVfMTExL2I1ZWZhYzdkYjA0YzczY2UwNzkxNDA0ZGU3MTMwN2JhODc0ZF91Z2N2aWRlb180ODBQXzAxLm1wNDMxMjEyMTgwMDhzaW1vbmlkYTIyODMxODhOSE5NVjAwMDAwMDQzMjUwNDI3Mjk=&px-bps=1632448&px-bufahead=3&in_out_flag=0)
-  </p>
-</div>
 
