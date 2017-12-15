@@ -13,13 +13,13 @@ sitemap:
 
   오픈소스 SW수업 시간에 과제로 받은 MVP 만들기. 조그만한 가게에 놔둘 수 있는 간단한 음악 플레이어를 만드는 것이 주 목적이었다. 따라서 이 파트에서는 MVP가 어떠한 것들로 구성되어 있는지, 내가 참여한 부분이 무엇인지에 대해 자세히 설명하려 한다.
 ### 1. 코딩
-<div class="box">
-  <p>
   구현한 알고리즘은 간단하다.
   과제에서 주어진 (1)이전 곡, (2)다음 곡, (3)이전 채널, (4)다음 채널, (5)프로그램이 종료되었다가 다시 실행되었을 때 마지막에 재생했던 곡을 재생하도록 하는 기능, (6)부팅 시 프로그램 자동 실행(이는 라즈베리 파이의 local.rc파일을 수정하여 완성했다) 으로 나누어져 있다. 후에 셔플 재생 기능이 추가 되었지만 코드를 미리 백업을 해놓지 않은 탓에 이 코드에는 셔플 기능 구현이 되어있지 않다.
 
 *참고 : write_____data 함수를 정의하기 전까지의 코드는 모두 LCD, 버튼, VLC(라즈베리파이의 음악 재생 프로그램) 등을 제어하기 위한 기본 세팅 코드다. 본인이 짠 코드는 아니라는 사실을 알린다.
   
+<div class="box">
+  <p>
   #!/usr/bin/env python
 import vlc
 import time
@@ -252,7 +252,7 @@ play_music()
 <div class="box">
   <p>
 발표 파트는 자세히 말로 설명하기는 부족하니 영상으로 대체하도록 하겠다.
-
-[![Video Label]("/images/pic06.jpg")](http://101.79.235.31/redirect/video.nmv.naver.com/blog/blog_2017_12_15_111/b5efac7db04c73ce0791404de71307ba874d_ugcvideo_480P_01.mp4?key=MjEwMzIyMjA1MzQ2OTcwNDQzMTE0MzExMTAxOXZpZGVvLm5tdi5uYXZlci5jb20wODMvYmxvZy9ibG9nXzIwMTdfMTJfMTVfMTExL2I1ZWZhYzdkYjA0YzczY2UwNzkxNDA0ZGU3MTMwN2JhODc0ZF91Z2N2aWRlb180ODBQXzAxLm1wNDMxMjEyMTgwMDhzaW1vbmlkYTIyODMxODhOSE5NVjAwMDAwMDQzMjUwNDI3Mjk=&px-bps=1632448&px-bufahead=3&in_out_flag=0)
+[영상 링크](http://101.79.235.31/redirect/video.nmv.naver.com/blog/blog_2017_12_15_111/b5efac7db04c73ce0791404de71307ba874d_ugcvideo_480P_01.mp4?key=MjEwMzIyMjA1MzQ2OTcwNDQzMTE0MzExMTAxOXZpZGVvLm5tdi5uYXZlci5jb20wODMvYmxvZy9ibG9nXzIwMTdfMTJfMTVfMTExL2I1ZWZhYzdkYjA0YzczY2UwNzkxNDA0ZGU3MTMwN2JhODc0ZF91Z2N2aWRlb180ODBQXzAxLm1wNDMxMjEyMTgwMDhzaW1vbmlkYTIyODMxODhOSE5NVjAwMDAwMDQzMjUwNDI3Mjk=&px-bps=1632448&px-bufahead=3&in_out_flag=0)
   </p>
 </div>
+
