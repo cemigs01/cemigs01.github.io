@@ -17,10 +17,9 @@ sitemap:
   과제에서 주어진 (1)이전 곡, (2)다음 곡, (3)이전 채널, (4)다음 채널, (5)프로그램이 종료되었다가 다시 실행되었을 때 마지막에 재생했던 곡을 재생하도록 하는 기능, (6)부팅 시 프로그램 자동 실행(이는 라즈베리 파이의 local.rc파일을 수정하여 완성했다) 으로 나누어져 있다. 후에 셔플 재생 기능이 추가 되었지만 코드를 미리 백업을 해놓지 않은 탓에 이 코드에는 셔플 기능 구현이 되어있지 않다.
 
 *참고 : write_____data 함수를 정의하기 전까지의 코드는 모두 LCD, 버튼, VLC(라즈베리파이의 음악 재생 프로그램) 등을 제어하기 위한 기본 세팅 코드다. 본인이 짠 코드는 아니라는 사실을 알린다.
-  
-<div class="box">
-  <p>
-  #!/usr/bin/env python
+
+```
+#!/usr/bin/env python
 import vlc
 import time
 import RPi.GPIO as GPIO
@@ -140,25 +139,26 @@ def main():
     # Initialise display
     lcd_init()
 
-#음악이 저장된 music 폴더 속 폴더들을 스트링으로 반환
+    #음악이 저장된 music 폴더 속 폴더들을 스트링으로 반환
     dirname = "/home/pi/Desktop/music"
     dir = [f for f in os.listdir(dirname)
            if os.path.isdir(os.path.join(dirname, f))]
 
     path = []
-    for name in dir: #각각의 폴더 경로들을 path리스트에 저장
+    for name in dir:   #각각의 폴더 경로들을 path리스트에 저장
         dirname = "/home/pi/Desktop/music"
         dirname += "/" + name
         path.append(dirname)
         
-        #이중배열을 만들기 위해 path 리스트에 저장된 경로를 활용 (가장 안쪽 리스트에는 각 폴더 속 음악의
-        #제목들이 들어가 있다.)
+    #이중배열을 만들기 위해 path 리스트에 저장된 경로를 활용 (가장 안쪽 리스트에는
+     각 폴더 속 음악의 제목들이 들어가 있다.)
     a = []
     for i in range(len(path)):
         artist = os.listdir(path[i])
         a.append(artist)
 
-#저장해 둔 txt파일을 열어 각 배열에 인덱스를 불러와 temp 변수에 경로를 지정해준다. 이로써 마지막으#로 재생했던 음악이 재생된다.
+    #저장해 둔 txt파일을 열어 각 배열에 인덱스를 불러와 temp 변수에 경로를 지정해준다.
+     이로써 마지막으로 재생했던 음악이 재생된다.
     f = open("/home/pi/Desktop/temp.txt")
     line = f.read()
     x = int(line[0])
@@ -180,7 +180,7 @@ def main():
 
     player.play()
 
-    while True: #본격적인 while 루프
+    while True:   #본격적인 while 루프
         # Send some test
         split_path = path[x].split('/')
         lcd_artist = split_path[-1]
@@ -234,9 +234,7 @@ def main():
 
 
 play_music()
-
-  </p>
-</div>
+```
 
 ### 2. 디자인 및 모델링
 <span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
