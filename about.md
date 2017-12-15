@@ -249,6 +249,4 @@ play_music()
 ### 3. 발표
 
 
-발표 파트는 자세히 말로 설명하기는 부족하니 영상으로 대체하도록 하겠다.
-
-[영상 링크](https://www.youtube.com/watch?v=Z0JSOXL7kSE&feature=youtu.be)
+발표 파트는 자세히 말로 설명하기는 부족하니 [영상](https://www.youtube.com/watch?v=Z0JSOXL7kSE&feature=youtu.be)으로 대체하도록 하겠다.
