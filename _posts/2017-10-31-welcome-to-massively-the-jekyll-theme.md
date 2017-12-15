@@ -1,28 +1,23 @@
 ---
 layout: post
-title:  "Welcome to Massively: The Jekyll Theme!"
+title:  "OSS2017_SimonPark"
 date:   2017-10-31
-excerpt: "Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do"
+excerpt: "Huge thanks to Team4 and Professor Cho."
 image: "/images/pic02.jpg"
 ---
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+## MVP 사용방법
+1. 전원을 연결하세요. 화면을 원하시면 HDMI를 연결하셔도 됩니다.
+2. 스피커를 연결하세요. 아니면 HDMI와 함께 블루투스를 이용하셔도 무방합니다.
+3. 이 작업을 다 할 때쯤이면 이미 음악이 재생중일 겁니다. 그냥 들으시면 됩니다.
+4. 음악을 바꾸고 싶다면, 혹은 채널 구분을 다르게 하고 싶다면 그냥 바꾸세요. 이름이 아닌 경로로 플레이를 하기 때문에 폴더가 없거나 음악이 없지 않는 이상 문제없이 돌아갑니다.
+5. 모델링된 디자인 파일을 원하신다면 [여기](https://github.com/cemigs01/cemigs01.github.io/blob/master/OSS%20CASE.zip)에서 다운받으시면 됩니다.
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
-
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
+## 포트폴리오 정보
+This Portfolio is ...
 ```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
+Portfolio: 
+	made by : Simon Park
+    team  : Team4
+    platform : github
 ```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
